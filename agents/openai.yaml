@@ -1,0 +1,6 @@
+interface:
+  display_name: "SwiftUI UI Scalability"
+  short_description: "Review and build adaptive iPhone and iPad layouts"
+  default_prompt: "Use $swiftui-ui-scalability to review this SwiftUI view and its descendants for adaptive layout problems and recommend compatible improvements."
+policy:
+  allow_implicit_invocation: true
