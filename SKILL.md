@@ -83,3 +83,7 @@ Lead with the most consequential user-visible issues. For each material finding 
 Group repeated root causes without losing affected locations. Call out existing approaches that should remain. A review may legitimately find no required changes; do not manufacture issues from search patterns.
 
 For implementation, make the changes and validate according to [Validation](references/validation.md). For review, provide a prioritized conversion sequence or focused illustrative snippet where useful. Report checks actually completed separately from untested conditions. Compilation and source inspection do not prove visual correctness, state continuity, performance, or universal size support.
+
+## Distribution note
+
+This skill follows the portable Agent Skills directory format: `SKILL.md` is the entry point and every runtime reference is relative to this directory. Installation for Codex, Gemini CLI, Claude Code, and Xcode-hosted agents is documented in [INSTALL.md](INSTALL.md). Do not add this directory to an Xcode application's target membership or Copy Bundle Resources; it is development-agent configuration, not app runtime content.
